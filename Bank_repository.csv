@@ -1,0 +1,4 @@
+Bank,Platform,Timezone,Log_Address,SFTP_Address,Host
+ASL,PRODUCTION,Auto,/naSFTP_Syno/ASL/DAILY_UPLOAD/,\\crlNAsFTPClient.wallstreetsystems.com\naSFTP_Syno\ASL\DAILY_UPLOAD\,10.136.65.90
+JEFFERIES_NY,PRODUCTION,Auto,/euCSLogsLTS/JEFFERIES/NY_MONITOR_LOGS,\\10.100.215.230\uk1sftp_syno\JEFFERIES\NY_MONITOR_LOGS,10.100.212.165
+HSBC_LON,RATES_GBP_PROD_18_SERVER,Europe/London,/ftp/hsbclon/Monitor_Logs/DM_gbl18645,\\sftp.eu.xonxradingx.com\LonSupp\hsbclon\Monitor_Logs\DM_gbl18645,10.100.212.165

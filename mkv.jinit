@@ -1,0 +1,14 @@
+mkv.component = TEST_APP
+mkv.cshost = XXXXXXXXXXXX
+mkv.csport = XXXXXX
+mkv.user = XXXXX
+mkv.pwd = XXXXXX
+mkv.listen = XXXXXX
+
+mkv.currency = ANY
+mkv.source = S_TEST_APP
+
+mkv.debug = 10
+mkv.log_threshold = 10
+mkv.ext.log_threshold = 10
+
