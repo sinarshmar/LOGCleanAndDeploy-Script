@@ -96,8 +96,8 @@ def getUnparsedFolderList(sftp1):
         f_l1 = sftp.listdir()
         f_l2 = sftp.listdir_attr()
 
-        # Since ASl uploads logs in multilevel folders. The list of folders will be in fomat: date_folder_name/DM_file
-        if Bank == "ASL":
+        # Since A** uploads logs in multilevel folders. The list of folders will be in fomat: date_folder_name/DM_file
+        if Bank == "A**":
             f_l3=[]
             for file in f_l1:
 
@@ -131,8 +131,8 @@ def getUnparsedFolderList(sftp1):
             print("Excluding as already parsed:->", fname)
             continue
 
-        # For ASL the folder age is already checked above.
-        if Bank=="ASL":
+        # For A** the folder age is already checked above.
+        if Bank=="A**":
             continue
 
         #index of current item in list.
